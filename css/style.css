@@ -6,11 +6,6 @@
 
 /* common Shared css start */
 
-.container{
-    width: 1320px;
-    margin:0 auto;
-}
-
 a{
     text-decoration: none;
 }
@@ -20,7 +15,7 @@ li{
 }
 
 body{
-font-family: 'Open Sans', sans-serif;;
+font-family: 'Open Sans', sans-serif;
 }
 
 .primary_text{
@@ -37,6 +32,7 @@ font-family: 'Open Sans', sans-serif;;
     border-radius: 5px;
     background: #FD6E0A;
     padding: 15px 35px;
+    cursor: pointer;
 }
 
 
@@ -45,6 +41,12 @@ font-family: 'Open Sans', sans-serif;;
 /* header css start */
 header{
     background: #FFF8F3;
+    height: 100%vh;
+    width: 100%vh;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    position: relative;
 }
 /* navbar css start */
 
@@ -52,7 +54,8 @@ nav > .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 230px;
+    padding: 0px 200px;
+
     
 }
 
@@ -80,13 +83,59 @@ nav a{
     font-weight: 400;
 }
 
+/* nav bar css end */
+
+/* banner css start */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner_caption{
+    padding: 50px 0px 0px 200px;
+
+}
+
+.banner_greeting{
+color:#474747;
+font-size: 45px;
+font-style: normal;
+font-weight: 600;
+}
+
+.banner_title{
+    color:#181818;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+}
+.banner_info{
+    color:#757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 20px 0px ;
+
+}
+
+.banner_btn{
+    margin-right: 5px
+}
+
+.profile_pic{
+width: 100%;
+}
+
+.banner_side_pic img{
+    position: absolute;
+    top: 0%;
+    margin-left: 5px;
+}
 
 
+/* banner css end */
 
-
-
-
-
-/* navbar css end */
 
 /* header css end */
