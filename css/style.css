@@ -33,11 +33,19 @@ font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
-    border: 0;
     border-radius: 5px;
     background: #FD6E0A;
     padding: 15px 35px;
     cursor: pointer;
+    transition: .4s;
+    border: 1px solid transparent;
+}
+
+.primary_btn:hover{
+    background-color: transparent;
+    color: #FD6E0A;
+    border-color: #FD6E0A;
+    
 }
 
 .section_title{
@@ -310,7 +318,6 @@ footer{
 footer .social_link a{
     margin-right: 24px;
 }
-
 
 .contact input[type="text"], .contact input[type="email"], textarea {
     display: block;
