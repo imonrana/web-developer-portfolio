@@ -14,6 +14,11 @@ li{
     list-style: none;
 }
 
+div{
+    margin: 0;
+    padding: 0;
+}
+
 body{
 font-family: 'Open Sans', sans-serif;
 }
@@ -140,12 +145,15 @@ font-weight: 600;
 }
 
 .profile_pic{
-width: 100%;
+width: 102%;
+display: flex;
+position: bottom;
 }
 
 .banner_side_pic img{
     position: absolute;
     top: 0%;
+    bottom: 0%;
     margin-left: 5px;
 }
 
@@ -230,4 +238,55 @@ main{
 
 /* skill section css end  */
 
+/* resume section css start */
+
+.resume_summary{
+    margin-top: 130px;
+}
+
+.resume_colum{
+    margin-top: 110px;
+}
+
+.resume_colum_title{
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume_container{
+    display: flex;
+    gap:50px
+}
+
+.resume_item_title{
+    margin-top: 30px;
+    color:#474747;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.resume_item_institute{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume_item_description{
+    margin-bottom:30px ;
+    color:#757575;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.download_cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* resume section css end */
 /* main section css end */
