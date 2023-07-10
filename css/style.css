@@ -287,6 +287,44 @@ main{
     margin-top: 50px;
 }
 
-
 /* resume section css end */
 /* main section css end */
+
+/* footer css start */
+footer{
+    background: #FFF8F3;
+    margin-top: 110px;
+    padding: 130px 200px;
+    display: flex;
+}
+
+.footer_coloum{
+    width: 50%;
+}
+
+.footer_coloum .section_description{
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+footer .social_link a{
+    margin-right: 24px;
+}
+
+
+.contact input[type="text"], .contact input[type="email"], textarea {
+    display: block;
+    margin: 24px;
+    padding: 18px 30px;
+    font-size: 16px;
+    color:#757575;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    border: 0;
+
+        
+}
+
+
+/* footer css end */
